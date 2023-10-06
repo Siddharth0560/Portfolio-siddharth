@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login page </title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		.d1{ height: 450px;
+			width: 300px;
+			margin: 10% 80%;
+		}
+		.mdiv{ background-size: 100%;
+			height: 100vh;
+			width: 100%;
+			position: fixed;
+		     top: 0px;
+		     left: 0px;
+		     right: 0px;
+			background-image: url('https://img.freepik.com/free-photo/palm-leaves-shadow-beige_53876-95504.jpg?size=626&ext=jpg');
+		}
+
+		input:focus{
+			outline:none;
+			border: none;
+
+            }
+		img{ 
+			height: 45px;
+			width: 45px;
+			border-radius: 35px;
+		}
+        .s{ border: none;
+        	background-color: transparent;
+        	border-bottom: 2px solid black;
+        }
+        .s:selected{ border: none;
+        	background-color: transparent;
+        	border-bottom: 2px solid black;
+        }
+        a{
+        	border: 0px;
+        	color: black;
+        	}
+        input[ type="button" ]{
+        	height: 30px;
+        	width: 150px;
+        	border-radius: 45px;
+
+
+        }
+        input[ type="button" ]:hover
+    {
+    	background-color: blue;
+    	color: white;
+    	border: 2px solid white;
+    	transform: scale(1.1);
+    	cursor: pointer;
+    }
+        
+	</style>
+</head>
+<body>
+	<div class="mdiv">
+		
+	<div class="d1">
+		<img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"  > 
+		<h1>WELCOME</h1>
+		<form>
+			<i class="fa-solid fa-user"></i> <input type="text" name="username" placeholder="username" class="s"><br><br>
+			<i class="fa-solid fa-lock"></i> <input type="password" name="password" placeholder="password" class="s"><br><br>
+			<a href="#">Forget Password?</a> <br><br>
+			<input type="button" name="button" value="Login">
+		</form>
+	</div>
+	</div>
+
+</body>
+</html>
